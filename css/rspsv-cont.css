@@ -1,0 +1,383 @@
+/* NAVBAR RESPON START*/
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px;
+    }
+    .overlay .close {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+  }
+  
+@media only screen and (max-width: 800px) {
+    .navlinks,
+    .cta {
+        display: none;
+    }
+    .menu {
+        display: initial;
+    }
+  }
+/* NAVBAR RESPON END*/
+/* Swiper JS */
+@media screen and (max-width: 768px) {
+    .slide-content{
+      margin: 0 10px;
+    }
+    .swiper-navBtn{
+      display: none;
+    }
+  }
+/* RESPONSIVE DEKSTOP START*/
+@media screen and (min-width: 1366px) {
+    .dekstop-view {
+        display: block;
+    }
+    .tablet-view {
+        display: none;
+    }
+    .mobile-view {
+        display: none;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .dekstop-view {
+        display: block;
+    }
+    .tablet-view {
+        display: none;
+    }
+    .mobile-view {
+        display: none;
+    }
+    .card {
+        margin-top: 50px;
+    }
+    .card .container{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .card .container .box {
+        width: 320px;
+        height: 380px;
+        padding: 30px;
+    }
+    .title-table {
+        margin-top: 40px;
+    }
+    .table-box {
+        width: 96.4%;
+    }
+    .link-doc {
+        width: 96.4%;
+        margin: auto 23px auto 24px;
+    }
+}
+/* RESPONSIVE DEKSTOP END*/
+/* RESPONSIVE CONTENT START*/
+@media screen and (max-width: 898px) {
+    .dekstop-view {
+        display: none;
+    }
+    .tablet-view {
+        display: block;
+    }
+    .mobile-view {
+        display: none;
+    }
+    .pnjelasan {
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+    .card {
+        margin-top: 50px;
+    }
+    .card .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .card .container .box{
+        position: relative;
+        width: 84.4%;
+        padding: 60px;
+        margin: 20px 120px auto 120px;
+    }
+    .title-table {
+        margin-top: 60px;
+    }
+    .table-box {
+        width: 84.4%;
+    }
+    .link-doc {
+        width: 84.4%;
+        margin: auto 63px auto 64px;
+    }
+  }
+/* RESPONSIVE CONTENT END*/
+/* RESPONSIVE MOBILE IOS START*/
+@media screen and (max-width: 428px){
+    .dekstop-view {
+        display: none;
+    }
+    .tablet-view {
+        display: none;
+    }
+    .mobile-view {
+        display: block;
+    }
+    .banner {
+        padding-top: 230px;
+        padding-bottom: 110px;
+    }
+    .banner h4{
+        font-size: 24px;
+    }
+    .banner p{
+        font-size: 14px;
+    }
+    .banert{
+        margin-top: 60px;
+    }
+    .pnjelasan{
+        border-top: none;
+        border-bottom: none;
+        border-left: 3px solid #F7C04A;
+        border-right: 3px solid #F7C04A;
+        border-radius: 1em;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        padding-top: 20px;
+    }
+    .des-card{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .card {
+        margin-top: 50px;
+    }
+    .card .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .card .container .box{
+        position: relative;
+        width: 325px;
+        height: 90.4%;
+        padding: 20px;
+        margin: 20px 0px auto 50px;
+    }
+    .title-table {
+        margin-top: 60px;
+        display: none;
+    }
+    .des-table {
+        display: none;
+    }
+    .table-box {
+        width:100%;
+        display: none;
+    }
+    .link-doc {
+        width: 90.4%;
+        margin: -50px 0px 0px 20px;
+    }
+    .materi {
+        margin: 50px;
+    }
+    .materi:hover{
+        transform: none;
+    }
+    .pagin ul {
+        display: none;
+    }
+    .footer-distributed .footer-links a{
+        display: none;
+    }
+    .footer-distributed .footer-company-name{
+        display: none;
+    }
+    .footer-distributed .footer-center p{
+        display: none;
+    }
+    .footer-distributed .footer-company-about{
+        margin-top: -30px;
+    }
+}
+/* RESPONSIVE MOBILE IOS END*/
+/* RESPONSIVE MOBILE ANDRO START*/
+@media screen and (max-width: 360px){
+    .dekstop-view {
+        display: none;
+    }
+    .tablet-view {
+        display: none;
+    }
+    .mobile-view {
+        display: block;
+    }
+    .banner {
+        padding-top: 210px;
+        padding-bottom: 80px;
+    }
+    .banner h4{
+        font-size: 24px;
+    }
+    .banner p{
+        font-size: 14px;
+    }
+    .banert{
+        margin-top: 60px;
+    }
+    .pnjelasan {
+        border-top: none;
+        border-bottom: none;
+        border-left: 3px solid #F7C04A;
+        border-right: 3px solid #F7C04A;
+        border-radius: 1em;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        padding-top: 20px;
+    }
+    .des-card{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .card {
+        margin-top: 50px;
+    }
+    .card .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .card .container .box{
+        position: relative;
+        width: 320px;
+        padding: 20px;
+        margin: 20px 0px auto 20px;
+    }
+    .title-table {
+        margin-top: 60px;
+        display: none;
+    }
+    .des-table {
+        display: none;
+    }
+    .table-box {
+        width: 100%;
+        display: none;
+    }
+    .link-doc {
+        width: 102.2%;
+        margin: -50px 0px 0px -8px;
+    }
+    .materi {
+        margin: 50px 20px 50px 20px;
+    }
+    .materi:hover{
+        transform: none;
+    }
+}
+/* RESPONSIVE MOBILE ANDRO SMALL*/
+@media screen and (max-width: 320px){
+    .dekstop-view {
+        display: none;
+    }
+    .tablet-view {
+        display: none;
+    }
+    .mobile-view {
+        display: block;
+    }
+    .banner {
+        padding-top: 180px;
+        padding-bottom: 80px;
+    }
+    .banner h4{
+        font-size: 24px;
+    }
+    .banner p{
+        font-size: 14px;
+    }
+    .banert{
+        margin-top: 60px;
+    }
+    .pnjelasan {
+        border-top: none;
+        border-bottom: none;
+        border-left: 3px solid #F7C04A;
+        border-right: 3px solid #F7C04A;
+        border-radius: 1em;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        padding-top: 20px;
+    }
+    .des-card{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .card {
+        margin-top: 50px;
+    }
+    .card .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .card .container .box{
+        position: relative;
+        width: 275px;
+        height: 380px;
+        padding: 20px;
+        margin: 20px 0px auto 20px;
+    }
+    .title-table {
+        margin-top: 60px;
+        display: none;
+    }
+    .des-table {
+        display: none;
+    }
+    .table-box {
+        width:100%;
+        display: none;
+    }
+    .link-doc {
+        width: 98.4%;
+        margin: -50px 3px auto 4px;
+    }
+}
+/* RESPONSIVE MOBILE ANDRO END*/
+
+/* FOOTER START */
+@media (max-width: 898px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+    .footer-distributed .footer-center i.fa-envelope,.footer-center i.fa-map-marked {
+        display: none;
+    }
+}
+/* FOOTER START */

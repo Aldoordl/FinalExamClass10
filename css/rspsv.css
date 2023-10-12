@@ -1,0 +1,359 @@
+/* NAVBAR RESPON START*/
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px;
+    }
+    .overlay .close {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+  }
+  
+@media only screen and (max-width: 800px) {
+    .navlinks,
+    .cta {
+        display: none;
+    }
+    .menu {
+        display: initial;
+    }
+  }
+/* NAVBAR RESPON END*/
+
+/* RESPONSIVE DEKSTOP START*/
+@media screen and (min-width: 1366px) {
+    .dekstop-view {
+        display: block;
+    }
+    .mobile-view {
+        display: none;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .dekstop-view {
+        display: block;
+    }
+    .mobile-view {
+        display: none;
+    }
+}
+/* RESPONSIVE DEKSTOP END*/
+/* RESPONSIVE CONTENT START*/
+@media screen and (max-width: 898px) {
+    .dekstop-view {
+        display: block;
+    }
+    .mobile-view {
+        display: none;
+    }
+    .border1 {
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+    .border2 {
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    .border2_1 {
+        display: none;
+    }
+    .border2_2 {
+        border-top: 3px solid #F7C04A;
+        border-bottom: 3px solid #F7C04A;
+        margin-left: 120px;
+    }
+    .border3 {
+        display: inline-block;
+    }
+    .border3_1 {
+        margin-right: 120px;
+        margin-bottom: 30px;
+    }
+    .border3_2 {
+        margin-left: 120px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .border4 {
+        margin-bottom: 80px;
+    }
+  }
+/* RESPONSIVE CONTENT END*/
+/* RESPONSIVE MOBILE IOS START*/
+@media screen and (max-width: 428px){
+    .dekstop-view {
+        display: none;
+    }
+    .mobile-view {
+        display: block;
+    }
+    .banner {
+        padding-top: 230px;
+        padding-bottom: 40px;
+    }
+    .banner h4{
+        font-size: 24px;
+    }
+    .banner p{
+        font-size: 14px;
+    }
+    .banert{
+        margin-top: 60px;
+    }
+    .border1 {
+        border-top: none;
+        border-bottom: none;
+        border-left: 3px solid #F7C04A;
+        border-right: 3px solid #F7C04A;
+        border-radius: 1em;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        padding-top: 20px;
+    }
+    .border2 {
+        display: inline;
+    }
+    .border2_1 {
+        display: none;
+    }
+    .border2_1,.border2_2 {
+        border-top: none;
+        border-left: 3px solid #F7C04A;
+        border-right: 3px solid #F7C04A;
+        border-radius: 1em;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        padding-top: 10px;
+    }
+    .border3 {
+        display: inline;
+    }
+    .border3_1 {
+        margin-top: 0px;
+    }
+    .border3_1,.border3_2 {
+        border-right: 3px solid #F7C04A;
+        border-left: 3px solid #F7C04A;
+        border-top: none;
+        border-bottom: none;
+        border-radius: 1em;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 40px;
+    }
+    .border3_2 {
+        margin-bottom: 50px;
+    }
+    .border4 {
+        border-radius: 1em;
+        border-top: none;
+        margin-top: 0px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        padding-top: 20px;
+    }
+    .footer-distributed .footer-links a{
+        display: none;
+    }
+    .footer-distributed .footer-company-name{
+        display: none;
+    }
+    .footer-distributed .footer-center p{
+        display: none;
+    }
+    .footer-distributed .footer-company-about{
+        margin-top: -30px;
+    }
+}
+/* RESPONSIVE MOBILE IOS END*/
+/* RESPONSIVE MOBILE ANDRO START*/
+@media screen and (max-width: 360px){
+    .dekstop-view {
+        display: none;
+    }
+    .mobile-view {
+        display: block;
+    }
+    .banner {
+        padding-top: 210px;
+        padding-bottom: 24px;
+    }
+    .banner h4{
+        font-size: 24px;
+    }
+    .banner p{
+        font-size: 14px;
+    }
+    .btn{
+        margin-top: 20px;
+    }
+    .banert{
+        margin-top: 60px;
+    }
+    .border1 {
+        border-top: none;
+        border-bottom: none;
+        border-left: 3px solid #F7C04A;
+        border-right: 3px solid #F7C04A;
+        border-radius: 1em;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        padding-top: 20px;
+    }
+    .border2 {
+        display: inline;
+    }
+    .border2_1 {
+        display: none;
+    }
+    .border2_1,.border2_2 {
+        border-top: none;
+        border-left: 3px solid #F7C04A;
+        border-right: 3px solid #F7C04A;
+        border-radius: 1em;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        padding-top: 10px;
+    }
+    .border3 {
+        display: inline;
+    }
+    .border3_1 {
+        margin-top: 0px;
+    }
+    .border3_1,.border3_2 {
+        border-right: 3px solid #F7C04A;
+        border-left: 3px solid #F7C04A;
+        border-top: none;
+        border-bottom: none;
+        border-radius: 1em;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+    }
+    .border3_2 {
+        margin-bottom: 50px;
+    }
+    .border4 {
+        border-radius: 1em;
+        border-top: none;
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+        padding-top: 20px;
+    }
+}
+/* RESPONSIVE MOBILE ANDRO SMALL*/
+@media screen and (max-width: 320px){
+    .dekstop-view {
+        display: none;
+    }
+    .mobile-view {
+        display: block;
+    }
+    .banner {
+        padding-top: 180px;
+        padding-bottom: 24px;
+    }
+    .banner h4{
+        font-size: 24px;
+    }
+    .banner p{
+        font-size: 14px;
+    }
+    .banert{
+        margin-top: 60px;
+    }
+    .border1 {
+        border-top: none;
+        border-bottom: none;
+        border-left: 3px solid #F7C04A;
+        border-right: 3px solid #F7C04A;
+        border-radius: 1em;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        padding-top: 20px;
+    }
+    .border2 {
+        display: inline;
+    }
+    .border2_1 {
+        display: none;
+    }
+    .border2_1,.border2_2 {
+        border-top: none;
+        border-left: 3px solid #F7C04A;
+        border-right: 3px solid #F7C04A;
+        border-radius: 1em;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        padding-top: 10px;
+    }
+    .border3 {
+        display: inline;
+    }
+    .border3_1 {
+        margin-top: 0px;
+    }
+    .border3_1,.border3_2 {
+        border-right: 3px solid #F7C04A;
+        border-left: 3px solid #F7C04A;
+        border-top: none;
+        border-bottom: none;
+        border-radius: 1em;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+    }
+    .border3_2 {
+        margin-bottom: 50px;
+    }
+    .border4 {
+        border-radius: 1em;
+        border-top: none;
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+        padding-top: 20px;
+    }
+}
+/* RESPONSIVE MOBILE ANDRO END*/
+
+/* FOOTER START */
+@media (max-width: 898px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+    .footer-distributed .footer-center i.fa-envelope,.footer-center i.fa-map-marked {
+        display: none;
+    }
+}
+/* FOOTER START */

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XyrElla</title>
+
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="/css/kontak.css">
+    <link rel="stylesheet" href="/css/rspsv-cact.css">
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/awesome/fontawesome-free-6.4.0-web/css/all.css">
+    <!-- ICON WEB -->
+    <link rel="shortcut icon" href="../img/kuning.png" type="image/x-icon">
+    <!-- EMAILJS -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("ccAMfNXwU1b2UpquR");
+        })();
+    </script>
+</head>
+<body>
+    <!-- NAVBAR START -->
+    <header>
+        <a class="logo poppins" href="#">XYR<span>ELLA</span></a>
+        <nav>
+            <ul class="navlinks poppins">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="/page/content.html">Content</a></li>
+                <li><a href="/page/about.html">About</a></li>
+            </ul>
+        </nav>
+        <a class="cta poppins" href="#">Contact</a>
+        <p class="menu cta poppins">Menu</p>
+    </header>
+    <div class="overlay">
+        <a class="close">&times;</a>
+        <div class="overlay__content poppins">
+            <a href="../index.html">Home</a>
+            <a href="/page/content.html">Content</a>
+            <a href="/page/about.html">About</a>
+            <a href="#" class="active">Contact</a>
+        </div>
+    </div>
+    <!-- NAVBAR END -->
+    <!-- CONTACT START -->
+    <div class="container">
+        <div class="content poppins">
+          <div class="left-side">
+            <div class="address details dekstop-view">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="topic">Address</div>
+              <div class="text-one">Jl. Raya Purwosari, Polerejo, Purwosari</div>
+              <div class="text-two">Pasuruan, Jawa Timur 67162</div>
+            </div>
+            <div class="phone details dekstop-view">
+              <i class="fas fa-phone-alt"></i>
+              <div class="topic">Phone</div>
+              <div class="text-one">+6282 9893 5647</div>
+              <div class="text-two">+6281 3434 5678</div>
+            </div>
+            <div class="email details dekstop-view">
+              <i class="fas fa-envelope"></i>
+              <div class="topic">Email</div>
+              <div class="text-one">cs.xyrooo@gmail.com</div>
+              <div class="text-two">info.xyrella@gmail.com</div>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="topic-text">Send us a message</div>
+            <p>Jika Kalian Para Audience Terdapat Saran Atau Kritikan, Silahkan Tulis Pesan Kalian Yaaa... <br>
+                Agar Kami Bisa Mendengar Suara Kalian.</p>
+          <form action="#" id="myForm">
+            <div class="input-box">
+              <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="input-box">
+              <input type="text" id="email_id" placeholder="Enter your email" required>
+            </div>
+            <div class="input-box message-box">
+              <textarea id="message" required></textarea>
+            </div>
+            <div class="button">
+              <input type="submit" value="Send Now" >
+            </div>
+          </form>
+        </div>
+        </div>
+      </div>
+    <!-- CONTACT END -->
+
+    <!-- JS -->
+    <script src="/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+/* ROOT VAR */
+
+/* ROOT CLASS*/
+.centert {
+    text-align: center;
+}
+.centerb {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    /* BISA MENGGUNAKAN YANG DIATAS DAN YANG DIDALAM KOMENTAR
+    display: grid;
+    place-items: center; */
+}
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+.archivo {
+    font-family: 'Archivo Black', sans-serif;
+}
+.kapital {
+    text-transform: uppercase;
+  }
+  
